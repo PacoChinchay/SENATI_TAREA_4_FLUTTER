@@ -1,17 +1,39 @@
 # trying_flutter
 
-A new Flutter project.
+Proyecto base en Flutter para pruebas y tareas.
 
-## Getting Started
+## Requisitos
 
-This project is a starting point for a Flutter application.
+- Flutter SDK instalado
+- Dart SDK (incluido con Flutter)
+- Un dispositivo o emulador configurado
 
-A few resources to get you started if this is your first Flutter project:
+## Ejecutar el proyecto
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+```bash
+flutter pub get
+flutter run
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Estructura principal
+
+- `lib/main.dart`: punto de entrada de la app
+- `test/widget_test.dart`: pruebas base de widgets
+- `android/`, `ios/`, `web/`, `windows/`, `linux/`, `macos/`: plataformas
+
+## Ramas
+
+- `main`: rama principal
+- `dev`: rama de desarrollo
+
+## Comandos utiles
+
+```bash
+flutter analyze
+flutter test
+```
+
+## Referencias
+
+- [Documentacion oficial de Flutter](https://docs.flutter.dev/)
+- [Codelab inicial](https://docs.flutter.dev/get-started/codelab)
